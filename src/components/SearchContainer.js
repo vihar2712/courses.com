@@ -11,11 +11,11 @@ const SearchContainer = () => {
   };
   return (
     <div>
-      <form className="flex bg-gray-400 mx-2 sm:w-6/12 sm:mx-auto mt-4 p-2 sm:p-4 rounded-md">
+      <form className="flex mx-2 sm:w-6/12 sm:mx-auto mt-4 p-2 sm:p-4 rounded-md">
         <input
           ref={searchText}
           type="text"
-          placeholder="Search for courses"
+          placeholder="Search for courses, instructors.."
           className="border-2 border-black px-2 py-1 w-10/12"
           onChange={handleSearch}
         />

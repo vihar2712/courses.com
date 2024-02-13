@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import CourseCard from "./CourseCard";
 import useCourse from "../hooks/useCourse";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   useCourse();
@@ -14,15 +15,13 @@ const Dashboard = () => {
       </h1>
       {myCourses.length !== 0 ? (
         <div className="flex overflow-x-scroll overflow-y-hidden sm:mx-10">
-          <div className="flex">
+          {/* <div> */}
             {myCourses.map((course) => (
-              <CourseCard
-                key={course.id}
-                courseDetails={course}
-                showProgress={true}
-              />
+              <Link to={"/courses/" + course.id} key={course.id} className="mb-4">
+                <CourseCard courseDetails={course} showProgress={true} />
+              </Link>
             ))}
-          </div>
+          {/* </div> */}
         </div>
       ) : (
         <h1>No courses enrolled...</h1>
