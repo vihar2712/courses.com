@@ -1,0 +1,833 @@
+[
+  {
+    "id": 19,
+    "name": "Data Science Masterclass",
+    "instructor": "Olivia Martinez",
+    "description": "Become a proficient data scientist with this comprehensive masterclass. Covering a wide range of topics from data wrangling and exploratory data analysis to machine learning and deep learning techniques, this course will equip you with the skills and knowledge needed to tackle real-world data science challenges.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "16 weeks",
+    "schedule": "Mondays and Wednesdays, 6:00 PM-8:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Intermediate Python programming",
+      "Understanding of basic statistics"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Data Science",
+        "content": "Overview of data science, its applications, and the data science workflow."
+      },
+      {
+        "week": 2,
+        "topic": "Data Wrangling",
+        "content": "Cleaning, transforming, and preparing data for analysis."
+      },
+      {
+        "week": 3,
+        "topic": "Exploratory Data Analysis",
+        "content": "Exploring and visualizing data to gain insights and identify patterns."
+      },
+      {
+        "week": 4,
+        "topic": "Statistical Analysis",
+        "content": "Applying statistical techniques to analyze data and make inferences."
+      },
+      {
+        "week": 5,
+        "topic": "Machine Learning Fundamentals",
+        "content": "Understanding machine learning algorithms and their applications."
+      },
+      {
+        "week": 6,
+        "topic": "Supervised Learning",
+        "content": "Exploring supervised learning algorithms such as linear regression, logistic regression, decision trees, and ensemble methods."
+      },
+      {
+        "week": 7,
+        "topic": "Unsupervised Learning",
+        "content": "Exploring unsupervised learning algorithms such as clustering and dimensionality reduction."
+      },
+      {
+        "week": 8,
+        "topic": "Model Evaluation and Validation",
+        "content": "Evaluating and validating machine learning models to ensure their effectiveness and generalization."
+      },
+      {
+        "week": 9,
+        "topic": "Deep Learning Fundamentals",
+        "content": "Introduction to deep learning concepts, neural networks, and deep learning frameworks."
+      },
+      {
+        "week": 10,
+        "topic": "Convolutional Neural Networks (CNNs)",
+        "content": "Understanding CNNs and their applications in image recognition and computer vision tasks."
+      },
+      {
+        "week": 11,
+        "topic": "Recurrent Neural Networks (RNNs)",
+        "content": "Understanding RNNs and their applications in sequential data analysis and natural language processing."
+      },
+      {
+        "week": 12,
+        "topic": "Deploying Machine Learning Models",
+        "content": "Deploying machine learning models into production environments using cloud services and containerization."
+      }
+    ],
+    "students": [
+      {
+        "id": 137,
+        "name": "Kylie Johnson",
+        "email": "kylie@example.com"
+      },
+      {
+        "id": 138,
+        "name": "Liam Martinez",
+        "email": "liam@example.com"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Advanced Cybersecurity",
+    "instructor": "Ethan Wilson",
+    "description": "Take your cybersecurity skills to the next level with this advanced course. Covering topics such as network security, cryptography, penetration testing, and incident response, this course will equip you with the knowledge and techniques needed to protect organizations from cyber threats.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "12 weeks",
+    "schedule": "Tuesdays and Thursdays, 7:00 PM-9:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic understanding of cybersecurity concepts"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Advanced Network Security",
+        "content": "Exploring advanced network security concepts, protocols, and defense mechanisms."
+      },
+      {
+        "week": 2,
+        "topic": "Cryptography",
+        "content": "Understanding cryptographic algorithms, protocols, and their applications in securing data."
+      },
+      {
+        "week": 3,
+        "topic": "Secure Software Development",
+        "content": "Principles and best practices for developing secure software applications."
+      },
+      {
+        "week": 4,
+        "topic": "Penetration Testing",
+        "content": "Conducting penetration tests to identify vulnerabilities and assess security posture."
+      },
+      {
+        "week": 5,
+        "topic": "Incident Response",
+        "content": "Developing and implementing incident response plans to effectively respond to security incidents."
+      },
+      {
+        "week": 6,
+        "topic": "Security Operations and Monitoring",
+        "content": "Monitoring and analyzing security events to detect and respond to threats in real-time."
+      },
+      {
+        "week": 7,
+        "topic": "Cloud Security",
+        "content": "Securing cloud environments and implementing cloud security best practices."
+      },
+      {
+        "week": 8,
+        "topic": "Mobile Security",
+        "content": "Securing mobile devices, applications, and data against cyber threats."
+      },
+      {
+        "week": 9,
+        "topic": "IoT Security",
+        "content": "Securing Internet of Things (IoT) devices and networks from cyber attacks."
+      },
+      {
+        "week": 10,
+        "topic": "Ethical Hacking",
+        "content": "Understanding ethical hacking techniques and practices for identifying and mitigating vulnerabilities."
+      }
+    ],
+    "students": [
+      {
+        "id": 139,
+        "name": "Mason Smith",
+        "email": "mason@example.com"
+      },
+      {
+        "id": 140,
+        "name": "Nora Johnson",
+        "email": "nora@example.com"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Introduction to React Native",
+    "instructor": "John Doe",
+    "description": "Learn the basics of React Native development and build your first mobile app.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "8 weeks",
+    "schedule": "Tuesdays and Thursdays, 6:00 PM-8:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to React Native",
+        "content": "Overview of React Native, setting up your development environment."
+      },
+      {
+        "week": 2,
+        "topic": "Building Your First App",
+        "content": "Creating a simple mobile app using React Native components."
+      }
+    ],
+    "students": [
+      {
+        "id": 101,
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
+      },
+      {
+        "id": 102,
+        "name": "Bob Smith",
+        "email": "bob@example.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Advanced Web Development with Node.js",
+    "instructor": "Jane Smith",
+    "description": "Take your Node.js skills to the next level with advanced web development techniques.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "10 weeks",
+    "schedule": "Mondays and Wednesdays, 7:00 PM-9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Intermediate JavaScript knowledge",
+      "Understanding of Node.js basics"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Advanced Node.js Concepts",
+        "content": "Asynchronous programming patterns, event loop, and error handling."
+      },
+      {
+        "week": 2,
+        "topic": "Building RESTful APIs with Express.js",
+        "content": "Designing and implementing RESTful APIs using Express.js framework."
+      }
+    ],
+    "students": [
+      {
+        "id": 103,
+        "name": "Charlie Brown",
+        "email": "charlie@example.com"
+      },
+      {
+        "id": 104,
+        "name": "Diana Johnson",
+        "email": "diana@example.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Python for Data Analysis",
+    "instructor": "Alice Johnson",
+    "description": "Learn data analysis using Python programming language.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "6 weeks",
+    "schedule": "Tuesdays and Thursdays, 6:00 PM-8:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic Python knowledge"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Data Analysis",
+        "content": "Overview of data analysis, data types, and data visualization."
+      },
+      {
+        "week": 2,
+        "topic": "Data Manipulation with Pandas",
+        "content": "Working with Pandas library for data manipulation and cleaning."
+      }
+    ],
+    "students": [
+      {
+        "id": 105,
+        "name": "Emma Brown",
+        "email": "emma@example.com"
+      },
+      {
+        "id": 106,
+        "name": "Frank Smith",
+        "email": "frank@example.com"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Introduction to Artificial Intelligence",
+    "instructor": "Michael Wilson",
+    "description": "Explore the basics of artificial intelligence and machine learning.",
+    "enrollmentStatus": "Closed",
+    "thumbnail": "your.image.here",
+    "duration": "8 weeks",
+    "schedule": "Mondays and Wednesdays, 7:00 PM-9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic Python knowledge",
+      "Familiarity with linear algebra"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to AI and ML",
+        "content": "Overview of artificial intelligence and machine learning concepts."
+      },
+      {
+        "week": 2,
+        "topic": "Supervised Learning",
+        "content": "Understanding supervised learning algorithms like linear regression and logistic regression."
+      }
+    ],
+    "students": [
+      {
+        "id": 107,
+        "name": "Grace Martinez",
+        "email": "grace@example.com"
+      },
+      {
+        "id": 108,
+        "name": "Henry Johnson",
+        "email": "henry@example.com"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "UI/UX Design Fundamentals",
+    "instructor": "Sophie Adams",
+    "description": "Learn the basics of UI/UX design principles and practices.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "4 weeks",
+    "schedule": "Mondays and Wednesdays, 6:00 PM-8:00 PM",
+    "location": "Online",
+    "prerequisites": ["None"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to UI/UX Design",
+        "content": "Understanding the principles and importance of UI/UX design."
+      },
+      {
+        "week": 2,
+        "topic": "User Research and Analysis",
+        "content": "Conducting user research and analyzing user needs."
+      }
+    ],
+    "students": [
+      {
+        "id": 109,
+        "name": "Isaac Brown",
+        "email": "isaac@example.com"
+      },
+      {
+        "id": 110,
+        "name": "Jasmine Smith",
+        "email": "jasmine@example.com"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Cybersecurity Fundamentals",
+    "instructor": "Ethan Wilson",
+    "description": "Get introduced to the fundamentals of cybersecurity.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "6 weeks",
+    "schedule": "Tuesdays and Thursdays, 7:00 PM-9:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic computer knowledge"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Cybersecurity",
+        "content": "Overview of cybersecurity concepts and importance."
+      },
+      {
+        "week": 2,
+        "topic": "Network Security",
+        "content": "Understanding network security principles and protocols."
+      }
+    ],
+    "students": [
+      {
+        "id": 111,
+        "name": "Katherine Martinez",
+        "email": "katherine@example.com"
+      },
+      {
+        "id": 112,
+        "name": "Leo Johnson",
+        "email": "leo@example.com"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Introduction to Machine Learning",
+    "instructor": "David Lee",
+    "description": "Learn the basics of machine learning algorithms and applications.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "8 weeks",
+    "schedule": "Mondays and Wednesdays, 6:00 PM-8:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic Python knowledge", "Understanding of statistics"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Machine Learning",
+        "content": "Overview of machine learning concepts and types of machine learning algorithms."
+      },
+      {
+        "week": 2,
+        "topic": "Supervised Learning",
+        "content": "Understanding supervised learning algorithms and applications."
+      }
+    ],
+    "students": [
+      {
+        "id": 113,
+        "name": "Mia Brown",
+        "email": "mia@example.com"
+      },
+      {
+        "id": 114,
+        "name": "Noah Smith",
+        "email": "noah@example.com"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Mobile App Development with Flutter",
+    "instructor": "Olivia Martinez",
+    "description": "Learn to build cross-platform mobile apps using Flutter framework.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "6 weeks",
+    "schedule": "Tuesdays and Thursdays, 7:00 PM-9:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic programming knowledge"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Flutter",
+        "content": "Overview of Flutter framework and its features."
+      },
+      {
+        "week": 2,
+        "topic": "Building UI with Flutter",
+        "content": "Creating user interfaces using Flutter widgets."
+      }
+    ],
+    "students": [
+      {
+        "id": 115,
+        "name": "Oliver Johnson",
+        "email": "oliver@example.com"
+      },
+      {
+        "id": 116,
+        "name": "Penelope Martinez",
+        "email": "penelope@example.com"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Full Stack Web Development with Django",
+    "instructor": "Sophia Adams",
+    "description": "Learn to build full-stack web applications using Django framework.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "10 weeks",
+    "schedule": "Mondays and Wednesdays, 6:00 PM-8:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic Python knowledge",
+      "Familiarity with HTML and CSS"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Django",
+        "content": "Overview of Django framework and its components."
+      },
+      {
+        "week": 2,
+        "topic": "Building CRUD Applications",
+        "content": "Creating CRUD (Create, Read, Update, Delete) applications with Django."
+      }
+    ],
+    "students": [
+      {
+        "id": 117,
+        "name": "Quinn Brown",
+        "email": "quinn@example.com"
+      },
+      {
+        "id": 118,
+        "name": "Rachel Smith",
+        "email": "rachel@example.com"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Data Science for Beginners",
+    "instructor": "William Johnson",
+    "description": "Get started with data science fundamentals and techniques.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "8 weeks",
+    "schedule": "Tuesdays and Thursdays, 7:00 PM-9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic programming knowledge",
+      "Familiarity with statistics"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Data Science",
+        "content": "Overview of data science, its applications, and workflow."
+      },
+      {
+        "week": 2,
+        "topic": "Data Wrangling",
+        "content": "Data cleaning, preprocessing, and transformation techniques."
+      }
+    ],
+    "students": [
+      {
+        "id": 119,
+        "name": "Samuel Martinez",
+        "email": "samuel@example.com"
+      },
+      {
+        "id": 120,
+        "name": "Taylor Johnson",
+        "email": "taylor@example.com"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Introduction to Cloud Computing",
+    "instructor": "Elijah Brown",
+    "description": "Get introduced to cloud computing concepts, services, and deployment models.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "8 weeks",
+    "schedule": "Mondays and Wednesdays, 6:00 PM-8:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic computer knowledge"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Overview of Cloud Computing",
+        "content": "Introduction to cloud computing and its advantages."
+      },
+      {
+        "week": 2,
+        "topic": "Cloud Service Models",
+        "content": "Understanding Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS)."
+      }
+    ],
+    "students": [
+      {
+        "id": 121,
+        "name": "Uma Smith",
+        "email": "uma@example.com"
+      },
+      {
+        "id": 122,
+        "name": "Victor Johnson",
+        "email": "victor@example.com"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Blockchain Fundamentals",
+    "instructor": "Charlotte Lee",
+    "description": "Learn the fundamentals of blockchain technology and cryptocurrencies.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "6 weeks",
+    "schedule": "Tuesdays and Thursdays, 7:00 PM-9:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic understanding of computer science"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Blockchain",
+        "content": "Overview of blockchain technology, its components, and applications."
+      },
+      {
+        "week": 2,
+        "topic": "Cryptocurrencies",
+        "content": "Understanding cryptocurrencies, mining, and wallets."
+      }
+    ],
+    "students": [
+      {
+        "id": 123,
+        "name": "Wesley Martinez",
+        "email": "wesley@example.com"
+      },
+      {
+        "id": 124,
+        "name": "Xavier Johnson",
+        "email": "xavier@example.com"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Ethical Hacking Essentials",
+    "instructor": "Ava Martinez",
+    "description": "Learn the essentials of ethical hacking and penetration testing.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "8 weeks",
+    "schedule": "Mondays and Wednesdays, 6:00 PM-8:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic understanding of networks and operating systems"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Ethical Hacking",
+        "content": "Overview of ethical hacking, legal aspects, and methodologies."
+      },
+      {
+        "week": 2,
+        "topic": "Footprinting and Reconnaissance",
+        "content": "Gathering information about target systems and networks."
+      }
+    ],
+    "students": [
+      {
+        "id": 125,
+        "name": "Yara Brown",
+        "email": "yara@example.com"
+      },
+      {
+        "id": 126,
+        "name": "Zane Smith",
+        "email": "zane@example.com"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "iOS App Development with SwiftUI",
+    "instructor": "Harper Johnson",
+    "description": "Learn iOS app development using SwiftUI framework.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "6 weeks",
+    "schedule": "Tuesdays and Thursdays, 7:00 PM-9:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic programming knowledge"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to SwiftUI",
+        "content": "Overview of SwiftUI framework and its features."
+      },
+      {
+        "week": 2,
+        "topic": "Building UI with SwiftUI",
+        "content": "Creating user interfaces using SwiftUI declarative syntax."
+      }
+    ],
+    "students": [
+      {
+        "id": 127,
+        "name": "Aaron Martinez",
+        "email": "aaron@example.com"
+      },
+      {
+        "id": 128,
+        "name": "Bella Johnson",
+        "email": "bella@example.com"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Cybersecurity Essentials",
+    "instructor": "Ethan Brown",
+    "description": "Learn the essential concepts and practices of cybersecurity.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "8 weeks",
+    "schedule": "Mondays and Wednesdays, 6:00 PM-8:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic understanding of computer systems"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Cybersecurity",
+        "content": "Overview of cybersecurity principles, threats, and vulnerabilities."
+      },
+      {
+        "week": 2,
+        "topic": "Network Security",
+        "content": "Understanding network security concepts, protocols, and defense mechanisms."
+      }
+    ],
+    "students": [
+      {
+        "id": 129,
+        "name": "Caleb Martinez",
+        "email": "caleb@example.com"
+      },
+      {
+        "id": 130,
+        "name": "Daisy Johnson",
+        "email": "daisy@example.com"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Introduction to Quantum Computing",
+    "instructor": "Natalie Wilson",
+    "description": "Explore the fundamentals of quantum computing and its applications.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "6 weeks",
+    "schedule": "Tuesdays and Thursdays, 7:00 PM-9:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic understanding of computer science"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Quantum Computing",
+        "content": "Overview of quantum computing principles, qubits, and quantum gates."
+      },
+      {
+        "week": 2,
+        "topic": "Quantum Algorithms",
+        "content": "Understanding quantum algorithms and their applications in cryptography and optimization."
+      }
+    ],
+    "students": [
+      {
+        "id": 131,
+        "name": "Eva Smith",
+        "email": "eva@example.com"
+      },
+      {
+        "id": 132,
+        "name": "Finn Johnson",
+        "email": "finn@example.com"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Artificial Intelligence and Machine Learning",
+    "instructor": "Sophia Adams",
+    "description": "In this comprehensive course on Artificial Intelligence (AI) and Machine Learning (ML), you will delve into the fascinating world of AI and ML, covering a wide range of topics such as supervised and unsupervised learning, deep learning, neural networks, natural language processing, computer vision, and more. You'll gain practical hands-on experience by working on real-world projects, and by the end of the course, you'll have the skills and knowledge to build intelligent systems and applications.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "12 weeks",
+    "schedule": "Mondays and Wednesdays, 6:00 PM-8:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic programming knowledge",
+      "Understanding of mathematics and statistics"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to AI and ML",
+        "content": "Overview of AI and ML concepts, history, and applications."
+      },
+      {
+        "week": 2,
+        "topic": "Supervised Learning",
+        "content": "Understanding supervised learning algorithms and applications."
+      }
+    ],
+    "students": [
+      {
+        "id": 133,
+        "name": "Gavin Martinez",
+        "email": "gavin@example.com"
+      },
+      {
+        "id": 134,
+        "name": "Hannah Johnson",
+        "email": "hannah@example.com"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Advanced Web Development with React and Redux",
+    "instructor": "Elijah Brown",
+    "description": "Take your web development skills to the next level with this advanced course on React and Redux. You'll learn advanced concepts and best practices for building modern, scalable web applications using React for the user interface and Redux for state management. Topics include advanced React components, Redux middleware, asynchronous actions, routing, authentication, and more. By the end of the course, you'll be able to architect and develop complex web applications with confidence.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.image.here",
+    "duration": "10 weeks",
+    "schedule": "Tuesdays and Thursdays, 7:00 PM-9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Intermediate knowledge of HTML, CSS, and JavaScript",
+      "Familiarity with React and Redux basics"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Advanced React Components",
+        "content": "Exploring advanced techniques for building reusable and composable React components."
+      },
+      {
+        "week": 2,
+        "topic": "Advanced Redux Concepts",
+        "content": "Understanding Redux middleware, async actions, and advanced state management patterns."
+      }
+    ],
+    "students": [
+      {
+        "id": 135,
+        "name": "Isabella Smith",
+        "email": "isabella@example.com"
+      },
+      {
+        "id": 136,
+        "name": "Jack Johnson",
+        "email": "jack@example.com"
+      }
+    ]
+  }
+]
