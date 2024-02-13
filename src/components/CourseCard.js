@@ -1,6 +1,5 @@
 import { COURSE_IMAGE_URL } from "../utils/constants";
 
-
 const CourseCard = ({ courseDetails, showProgress }) => {
   const {
     name,
@@ -12,7 +11,7 @@ const CourseCard = ({ courseDetails, showProgress }) => {
     thumbnail,
   } = courseDetails;
   return (
-    <div className="border-gray-400 border-2 m-2 w-60 sm:w-96 h-full bg-gray-200 hover:bg-gray-300 hover:cursor-pointer rounded-md">
+    <div className="border-gray-400 border-2 m-2 w-64 sm:w-72 md:w-96 h-full bg-gray-200 hover:bg-gray-300 hover:cursor-pointer rounded-md mx-auto">
       <div className="relative">
         <img
           src={thumbnail || COURSE_IMAGE_URL}

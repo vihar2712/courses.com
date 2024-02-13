@@ -31,7 +31,7 @@ const Body = () => {
       {courses.length > 0 ? (
         <div className="flex flex-wrap justify-center m-2 p-2">
           {courses.map((course) => (
-            <Link to={"/courses/" + course.id} key={course.id} className="my-2">
+            <Link to={"/courses/" + course.id} key={course.id} className="m-2">
               <CourseCard courseDetails={course} showProgress={false} />
             </Link>
           ))}
