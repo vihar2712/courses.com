@@ -1,8 +1,6 @@
 import CourseCard from "./CourseCard";
 import { useSelector } from "react-redux";
 import SearchContainer from "./SearchContainer";
-
-import { Link } from "react-router-dom";
 import useCourse from "../hooks/useCourse";
 
 const Body = () => {
@@ -32,14 +30,7 @@ const Body = () => {
       {courses.length > 0 ? (
         <div className="flex flex-wrap justify-center m-2 p-2">
           {courses.map((course) => (
-            <div
-              key={course.id}
-              className="border-2 border-black m-2 w-96 p-2 bg-gray-200 hover:bg-gray-300 hover:cursor-pointer rounded-md"
-            >
-              <Link to={"/courses/" + course.id}>
-                <CourseCard courseDetails={course} />
-              </Link>
-            </div>
+            <CourseCard key={course.id} courseDetails={course} showProgress={false} />
           ))}
         </div>
       ) : (

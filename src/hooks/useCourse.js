@@ -1,22 +1,29 @@
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { addCourses } from "../utils/courseSlice";
+import { addAllCourses, addMyCourses } from "../utils/courseSlice";
+import { API_URL } from "../utils/constants";
 
 const useCourse = () => {
-    const dispatch = useDispatch();
-    const fetchData = async () => {
-        const data = await fetch(
-          "https://mocki.io/v1/cc71466f-b5b8-4306-b03f-a4d7f5d4596d"
-        );
-    
-        const json = await data.json();
-    
-        dispatch(addCourses(json));
-      };
-    
-      useEffect(() => {
-        fetchData();
-      }, []);
-}
+  const allCourses = useSelector((store) => store.course.coursesArr);
+  const myCourses = useSelector((store) => store.course.myCourses);
+  const dispatch = useDispatch();
+  const fetchData = async () => {
+    const data = await fetch(API_URL);
 
-export default useCourse
+    const json = await data.json();
+
+    dispatch(addAllCourses(json));
+
+    const enrolledCourses = json.filter(
+      (course) => course.enrollmentStatus !== "Closed"
+    );
+
+    dispatch(addMyCourses(enrolledCourses));
+  };
+
+  useEffect(() => {
+    (!allCourses || !myCourses) && fetchData();
+  }, []);
+};
+
+export default useCourse;

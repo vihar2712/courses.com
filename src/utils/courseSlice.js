@@ -6,6 +6,7 @@ const courseSlice = createSlice({
     showSearchBtn: false,
     searchText: "",
     coursesArr: null,
+    myCourses: [],
   },
   reducers: {
     setShowSearchBtn: (state) => {
@@ -14,13 +15,16 @@ const courseSlice = createSlice({
     addSearchText: (state, action) => {
       state.searchText = action.payload;
     },
-    addCourses: (state, action) => {
+    addAllCourses: (state, action) => {
       state.coursesArr = action.payload;
+    },
+    addMyCourses: (state, action) => {
+      state.myCourses = (action.payload);
     },
   },
 });
 
-export const { setShowSearchBtn, addSearchText, addCourses } =
+export const { setShowSearchBtn, addSearchText, addAllCourses ,addMyCourses} =
   courseSlice.actions;
 
 export default courseSlice.reducer;

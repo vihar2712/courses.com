@@ -5,7 +5,7 @@ const Syllabus = ({ data, setShowContent, showContent, collapseItem }) => {
     showContent && collapseItem();
   };
   return (
-    <div key={week} className="text-lg">
+    <div className="text-lg">
       <h1
         onClick={handleContent}
         className="bg-gray-300 p-2 hover:cursor-pointer font-bold border-b-2 border-gray-400"

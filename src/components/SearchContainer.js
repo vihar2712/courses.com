@@ -11,7 +11,7 @@ const SearchContainer = () => {
   };
   return (
     <div>
-      <form className="flex bg-gray-400 w-6/12 mx-auto mt-4 p-4 rounded-md">
+      <form className="flex bg-gray-400 mx-2 sm:w-6/12 sm:mx-auto mt-4 p-2 sm:p-4 rounded-md">
         <input
           ref={searchText}
           type="text"
