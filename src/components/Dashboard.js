@@ -17,7 +17,7 @@ const Dashboard = () => {
         <div className="flex overflow-x-scroll overflow-y-hidden sm:mx-10">
           {/* <div> */}
             {myCourses.map((course) => (
-              <Link to={"/courses/" + course.id} key={course.id} className="mb-4">
+              <Link to={"/courses/" + course.id} key={course.id} className="mb-4 mx-2">
                 <CourseCard courseDetails={course} showProgress={true} />
               </Link>
             ))}
