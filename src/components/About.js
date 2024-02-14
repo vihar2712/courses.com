@@ -56,10 +56,6 @@ const About = () => {
         <li>
           Displayed course name, instructor name, thumbnail, and a progress bar.
         </li>
-        <li>
-          Implemented a feature that allows students to mark courses as
-          completed
-        </li>
       </p>
       <p>
       <span className="font-bold text-lg">Concepts used:</span>
