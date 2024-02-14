@@ -61,6 +61,13 @@ const About = () => {
           completed
         </li>
       </p>
+      <p>
+      <span className="font-bold text-lg">Concepts used:</span>
+        <li>core react</li>
+        <li>react-router-dom for routing</li>
+        <li>redux for state management</li>
+        <li>tailwindCSS for styling</li>
+      </p>
     </div>
   );
 };

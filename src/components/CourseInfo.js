@@ -31,9 +31,9 @@ const CourseInfo = () => {
 
   return (
     <div>
-      <div className="w-11/12 sm:w-9/12 flex flex-col sm:flex-row mx-auto mt-10 ">
+      <div className="w-11/12 lg:w-9/12 flex flex-col md:flex-row mx-auto mt-10 ">
         <CourseCard courseDetails={course[0]} />
-        <div className="ml-4 flex flex-col justify-evenly sm:w-6/12">
+        <div className="ml-4 flex flex-col justify-evenly md:w-6/12">
           <h1 className="text-3xl font-bold mt-3">{name}</h1>
           <h1 className="text-md">
             Created by <span className="font-bold">{instructor}</span>
@@ -58,7 +58,7 @@ const CourseInfo = () => {
           </h1>
         </div>
       </div>
-      <div className="w-11/12 sm:w-9/12 mx-auto mt-10">
+      <div className="w-11/12 md:w-9/12 mx-auto mt-10">
         <h1 className="text-xl mb-4"> Syllabus:</h1>
         <div className="border-2 border-gray-500 my-4">
           {syllabus.map((study, index) => (

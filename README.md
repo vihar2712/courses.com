@@ -38,6 +38,8 @@ Student Dashboard:
  core react
  react-router-dom for routing
  redux for state management
+ tailwindCSS for styling
+ 
 
  
  

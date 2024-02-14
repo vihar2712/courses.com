@@ -5,7 +5,6 @@ const CourseCard = ({ courseDetails, showProgress }) => {
     name,
     instructor,
     duration,
-    id,
     enrollmentStatus,
     progress,
     thumbnail,
