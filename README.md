@@ -31,7 +31,6 @@ Student Dashboard:
  1) Creates a user dashboard for students to display the courses they are enrolled in.
  Included a user-friendly interface with a list of enrolled courses.
  2) Displayed course name, instructor name, thumbnail, and a progress bar. 
- 3) Implemented a feature that allows students to mark courses as completed
 
  Concepts used:
 
